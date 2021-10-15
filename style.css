@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;}
+  @-webkit-keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+  @keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+body {
+    background-color: rgba(79, 198, 245, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.konten {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: snow;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;    
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.konten .menukiri {
+    position: relative;
+    background: teal;
+    padding: 50px;
+} 
+
+.profil {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profil .img {
+    position: relative;
+    width: 200px;  
+    height: 200px;
+    border-radius: 50% ;
+    overflow: hidden;
+}
+
+.profil .img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 100%;
+    object-fit: cover;
+}
+
+.profil h2 {
+    color: seashell;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.bio h3 {
+    padding-top: 20px;
+    color: antiquewhite;
+    text-align: justify;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.konten .menukiri .kontak {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    
+}
+
+.konten .menukiri h3 {
+    padding-bottom: 10px;
+}
+
+.konten .menukiri .kontak ul {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.konten .menukanan {
+    position: relative;
+    background: snow;
+    padding: 40px;
+} 
+
+.pendidikan {
+    position: relative;
+    font-size: 20pt;
+}
+
+.pendidikan .teks {
+    font-weight: bold;
+}
+
+.pendidikan .daftarpendidikan {
+    position: relative;
+    font-size: 12pt;
+    margin-top: 5pt;
+    margin-left: 40pt;    
+}
+
+.pendidikan .daftarpendidikan ul {
+    margin-top: 10pt;
+}
+
+.pendidikan .daftarpendidikan h3 {
+    font-size: 10pt;
+    font-weight: lighter;
+}
+
+.pengalamankerja {
+    position: relative;
+    font-size: 20pt;
+    margin-top: 20px;
+}
+
+.pengalamankerja .teks {
+    font-weight: bold;
+}
+.pengalamankerja .daftarkerja {
+    position: relative;
+    font-size: 12pt;
+    margin-top: 5pt;
+    margin-left: 40pt; 
+}
+
+.pengalamankerja .daftarkerja ul {
+    margin-top: 10pt;
+}
+
+.pengalamankerja .daftarkerja h3 {
+    font-size: 10pt;
+    font-weight: lighter;
+}
+
+.skill {
+    position: relative;
+    font-size: 20pt;
+    margin-top: 20px;
+}
+
+.skill .teks {
+    font-weight: bold;
+}
+
